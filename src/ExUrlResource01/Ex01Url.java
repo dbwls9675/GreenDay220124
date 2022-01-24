@@ -1,5 +1,5 @@
 package ExUrlResource01;
-
+//URL에 접속하고 html정보 얻기
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;

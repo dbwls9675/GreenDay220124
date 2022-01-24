@@ -1,5 +1,6 @@
 package ExUrlResource01;
-//이미지 불러오기
+
+//URL접속 후 이미지 복사 후 저장
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
@@ -18,12 +19,12 @@ public class Ex02Url {
 		DataInputStream dis = new DataInputStream(is);
 
 		File dir = new File("./images");
-		if(!dir.exists()) {
-			if(dir.mkdir()) {
+		if (!dir.exists()) {
+			if (dir.mkdir()) {
 				System.out.println("새 디렉토리 생성 완료!");
 			}
 		}
-		
+
 		String saveFilePath = "photo.jpg";
 		File file = new File(dir, saveFilePath);
 		FileOutputStream fos = new FileOutputStream(file);
@@ -43,6 +44,7 @@ public class Ex02Url {
 		if (fos != null)
 			fos.close();
 	}
+
 	public static void main(String[] args) throws IOException {
 		new Ex02Url();
 	}

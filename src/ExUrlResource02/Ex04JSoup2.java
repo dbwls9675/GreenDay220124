@@ -1,5 +1,5 @@
 package ExUrlResource02;
-//위키백과 고양이 이미지 불러오기
+//Jsoup을 사용하여 이미지 파일만 복사 후 저장
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;

@@ -1,5 +1,5 @@
 package ExUrlResource03;
-
+//JSON 파일을 읽어 필요한 필요한 정보만 추출 후 swing으로 보여주기
 import java.awt.*;
 import java.io.*;
 import java.net.URL;

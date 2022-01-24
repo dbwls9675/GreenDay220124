@@ -1,5 +1,5 @@
 package ExUrlResource02;
-
+//Jsoup을 사용하여 필요한 정보만 얻기
 import java.io.IOException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
